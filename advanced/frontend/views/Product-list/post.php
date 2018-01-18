@@ -6,7 +6,6 @@
  * Time: 18:35
  */
 use yii\helpers\Html;
-use yii\helpers\HtmlPurifier;
 ?>
 <div class="post">
 
