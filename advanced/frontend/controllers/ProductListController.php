@@ -5,7 +5,6 @@ namespace frontend\controllers;
 use Yii;
 use common\models\Product;
 use common\models\ProductSearch;
-use yii\data\Pagination;
 use yii\data\Sort;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
