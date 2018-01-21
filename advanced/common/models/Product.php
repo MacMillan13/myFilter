@@ -43,7 +43,7 @@ class Product extends \yii\db\ActiveRecord
             [['length', 'width'], 'required'],
             [['length', 'width'], 'number'],
             [['title', 'content', 'description', 'country', 'manufacturer', 'image'], 'string', 'max' => 255],
-            [['description'], 'string', 'max' => 50],
+            [['description'], 'string'],
             [['title'], 'string', 'max' => 25],
             [['date'], 'date', 'format' => 'php:Y-m-d'],
             [['date'], 'default', 'value' => date('Y-m-d')],
